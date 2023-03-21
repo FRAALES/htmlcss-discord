@@ -9,7 +9,6 @@ a {
 }
 
 .biggestbox{
-    position: absolute;
     margin: auto;
     width: 800px;
     text-align: center;
@@ -22,21 +21,18 @@ a {
 
 /* Regole Header:
     1) parte in alto: font piccolo per il div centrale
-    - bottone 'accedi' top rightn (float right?)
+    - bottone 'accedi' top right (float right?)
 
     2) parte centrale: scritte bianche
     3) bottoni uno bianco uno nero
 */
 
-.logo{
-    margin-left: 50px;
+.header-top {
+    display: flex;
+    margin: auto;
+    flex-wrap: nowrap;
+    align-content: space-around;
 }
-
-.accedi{
-    position: relative;
-    margin-right: 50px;
-}
-
 
 
 /* Regole main:
