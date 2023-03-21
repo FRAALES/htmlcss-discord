@@ -29,9 +29,7 @@ a {
 
 .header-top {
     display: flex;
-    margin: auto;
-    flex-wrap: nowrap;
-    align-content: space-around;
+    justify-content: space-around;
 }
 
 header{
@@ -39,6 +37,11 @@ header{
 }
 
 .voci {
+    color: white;
+}
+
+
+.header2 {
     color: white;
 }
 
