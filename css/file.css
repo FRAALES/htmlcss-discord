@@ -34,6 +34,13 @@ a {
     align-content: space-around;
 }
 
+header{
+    background-color: blue;
+}
+
+.voci {
+    color: white;
+}
 
 /* Regole main:
     1) img float left
