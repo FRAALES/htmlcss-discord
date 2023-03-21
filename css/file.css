@@ -101,6 +101,10 @@ img 1 2 3 hanno la stessa grandezza
 
 /* Regole Main1: */
 
+.main1{
+    display: flex;
+}
+
 
 .rana {
     float: left;
@@ -108,9 +112,20 @@ img 1 2 3 hanno la stessa grandezza
 
 
 
+/* Regole main2 */
+
+.magician{
+    float: right;
+}
 
 
+/* Regole main3 */
 
+.monster {
+    float: left;
+}
+
+/* Regole main4 */
 
 
 
