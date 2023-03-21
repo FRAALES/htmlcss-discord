@@ -16,7 +16,6 @@ a {
     margin-left: 20%;
     margin-right: 20%;
 }
-/* Regole di debug */
 
 
 /* Regole Header:
@@ -27,25 +26,68 @@ a {
     3) bottoni uno bianco uno nero
 */
 
-.header-top {
-    display: flex;
-    justify-content: space-around;
-}
+
+
+/* regole header generali: */
 
 header{
     background-color: blue;
     background-image: url(file:///Users/alessandrofranco/Desktop/Esercizi%20Boolean/htmlcss-discord/img/jumbo.png);
     background-size: contain;
+    height: 290px;
+    width: 100%;
+}
+
+/* Regole header 1: parte in alto */
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#accedi{
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px;
 }
 
 .voci {
     color: white;
 }
 
+/* Regole header 2: parte centrale */
 
 .header2 {
     color: white;
 }
+
+
+.paragrafo-header{
+    margin-top: 20px;
+    line-height: 25px;
+    width: 60%;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+
+/* Regole header 3: parte in basso */
+
+#bottone1{
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+#bottone2{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+/* ------------------------------------------------------------------ */
 
 /* Regole main:
     1) img float left
@@ -56,6 +98,22 @@ img 1 2 3 hanno la stessa grandezza
 
     4) img and text align centre
 */
+
+/* Regole Main1: */
+
+
+.rana {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
 
 
 
