@@ -34,6 +34,8 @@ a {
 
 header{
     background-color: blue;
+    background-image: url(file:///Users/alessandrofranco/Desktop/Esercizi%20Boolean/htmlcss-discord/img/jumbo.png);
+    background-size: contain;
 }
 
 .voci {
