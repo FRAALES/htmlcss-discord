@@ -172,6 +172,8 @@ footer{
 
 .col{
     width: 15%;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
