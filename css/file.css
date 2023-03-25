@@ -11,7 +11,6 @@ a {
 .biggestbox{
     margin: auto;
     width: 1000px;
-    max-width: 1000px;
     text-align: center;
     margin-top: 10px;
     margin-left: 20%;
@@ -119,14 +118,20 @@ img 1 2 3 hanno la stessa grandezza
 
 .main{
     display: flex;
-    justify-content:center;
+    justify-content: center;
     padding-top: 20px;
     margin-bottom: 100px;
+    width: 90%;
 }
 
 .immagine-main{
     height: auto;
 }
+
+.text{
+    padding-top: 30px;
+}
+
 
 
 /* Regole main4 */
