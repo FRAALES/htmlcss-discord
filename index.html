@@ -18,26 +18,26 @@
 
             <header>
                 <!-- Sezione header 1 -->
-                <section class="header-top">
+                <nav class="header-top">
                     <span class="logo">
                         <!-- Questo div conterrà il logo e starà in alto a sinistra -->
                         <img src="img/logo.png" alt="logo">
                     </span>
 
-                    <span class="voci">
-                        <!-- Questo span sarà composto di 5 parole che stranno centrali in alto -->
-                        Scarica
-                        Perché Discord
-                        Nitro
-                        Sicurezza
-                        Assistenza
-                    </span>
+                    <ul class="voci">
+                        <!-- Questa ul sarà composta di 5 parole che staranno centrali in alto -->
+                        <li>Scarica</li>
+                        <li>Perché Discord</li>
+                        <li>Nitro</li>
+                        <li>Sicurezza</li>
+                        <li>Assistenza</li>
+                    </ul>
 
                     <span>
                         <!-- Questo span è un bottone in alto a destra -->
                         <button id="accedi">Accedi</button>
                     </span>
-                </section>
+                </nav>
 
                 <!-- Sezione header2 -->
                     <section class="header2">
@@ -68,18 +68,19 @@
             -->
             <main>
                 <!-- Sezione main1 -->
-                    <section class="main1">
-                        <div class="rana">
-                            <img src="img/item1.svg" alt="rana">
+                    <section class="main">
+                        <div class="immagine-main">
+                            <img src="img/item1.svg" alt="">
                         </div>
                    
-
-                        <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
+                        <div class="text">
+                            <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
                     
 
-                        <p>
-                        I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere, o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
-                        </p>
+                            <p>
+                            I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere, o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
+                            </p>
+                        </div>
 
                     </section>
 
@@ -87,41 +88,60 @@
 
 
                 <!-- Sezione main2 -->
-                    <section class="main2">
-                        <div class="magician">
+                    <section class="main">
+                        <div class="text">
+                            <h1>
+                                Dove trovarsi è facile
+                            </h1>
+                            <p>
+                                Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.
+                            </p>
+                        </div>
+                        
+                        <div class="immagine-main">
                             <img src="img/item2.svg" alt="magician">
                         </div>
-                    
-                        <h1>Dove trovarsi è facile</h1>
-                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
                     </section>
 
 
 
 
                 <!-- Sezione main3 -->
-                    <section>
-                        <div class="monster">
+                    <section class="main">
+                        <div class="immagine-main">
                             <img src="img/item3.svg" alt="monster">
                         </div>
                    
-
-                        <h1>Da pochi a un fandom</h1>
-                        <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
+                        <div class="text">
+                            <h1>
+                                Da pochi a un fandom
+                            </h1>
+                            <p>
+                                Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.
+                            </p>
+                        </div>
                     </section>
 
 
 
                 <!-- Sezione main4  -->
                     <section>
-                        <div>
+                        <div class="text-center">
+                            <h1>Tecnologia affidabile per tenersi in contatto</h1>
+                            <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.  </p>
 
+                        </div>
+
+                        <div>
+                            <img src="img/item4-big.svg" alt="">
                         </div>
                     </section>   
 
+                    <section class="pronto">
+                        <h1>Pronto a iniziare la tua avventura?</h1>
 
-
-
+                        <button id="bottone3">&darr; Scarica per Mac</button>
+                    </section>
             </main>
 
             <!-- Struttura footer
@@ -140,7 +160,29 @@
             -->
 
             <footer>
+                <div class="footer-container">
+                    <div class="col-grande">
+                        <h1>Il tuo posto per parlare</h1>
+                        <nav>Italiano</nav>
+                        <div>Facebook</div>
+                    </div>
+                    <div class="col">
+                        Prodotto
+                        Scarica
+                        Perché Discord
+                        Nitro
+                        Sicurezza
+                        Assistenza
+                    </div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
 
+
+
+
+
+                </div>
             </footer>
 
 
